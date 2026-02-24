@@ -1,0 +1,52 @@
+# Vivado Build and IP User Files
+*.o
+*.so
+*.a
+*.lib
+*.exe
+*.out
+
+# Vivado project files
+*.xpr.bak
+*.cache
+*.hw
+*.sim
+*.runs
+*.log
+*.jou
+*.pb
+.Xil/
+
+# IP user files and core files
+DDR3_AXI.ip_user_files/ip/*/
+DDR3_AXI.ip_user_files/sim_scripts/*/
+
+# Backup folder
+**/backup/
+
+# Vivado temporary files
+.xilinx/
+.hbs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Generated files
+*.edif
+*.edn
+*.ngc
+*.ndf
+*.xise
+*.xsl
+*.rpt
+*.rpx
+*.dcp
+*.xdc
