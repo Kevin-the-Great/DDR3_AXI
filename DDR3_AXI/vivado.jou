@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Aug 19 09:24:46 2025
+# Process ID: 14152
+# Current directory: D:/FPGA_DATA/GC/ddr_pro/DDR3_AXI
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13296 D:\FPGA_DATA\GC\ddr_pro\DDR3_AXI\DDR3_AXI.xpr
+# Log file: D:/FPGA_DATA/GC/ddr_pro/DDR3_AXI/vivado.log
+# Journal file: D:/FPGA_DATA/GC/ddr_pro/DDR3_AXI\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/FPGA_DATA/GC/ddr_pro/DDR3_AXI/DDR3_AXI.xpr
+update_compile_order -fileset sources_1
