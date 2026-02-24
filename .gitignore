@@ -8,10 +8,10 @@
 
 # Vivado project files
 *.xpr.bak
-*.cache
-*.hw
-*.sim
-*.runs
+DDR3_AXI.cache/
+DDR3_AXI.hw/
+DDR3_AXI.sim/
+DDR3_AXI.runs/
 *.log
 *.jou
 *.pb
@@ -26,7 +26,7 @@ DDR3_AXI.ip_user_files/sim_scripts/*/
 
 # Vivado temporary files
 .xilinx/
-.hbs/
+DDR3_AXI.hbs/
 
 # OS files
 .DS_Store
@@ -49,4 +49,6 @@ Thumbs.db
 *.rpt
 *.rpx
 *.dcp
-*.xdc
+
+# Keep constraint files
+!*.xdc
